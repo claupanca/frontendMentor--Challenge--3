@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1;
+
+  background-color: hsl(30, 38%, 92%);
+}
+
+section {
+  padding: 9.6rem 0;
+
+  /* background-color: hsl(30, 38%, 92%); */
+}
+
+.container {
+  max-width: 53rem;
+  margin: 0 auto;
+
+  /* border: 1px solid #000; */
+  background-color: #fff;
+
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--1-col {
+  grid-template-columns: 1fr;
+}
+
+.grid--2-col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.product-card {
+}
+
+.product-img {
+}
+
+.product-img img {
+  width: 100%;
+  display: block;
+}
+
+.product-information {
+  /* flex: 1; */
+
+  padding: 2.2rem 3.2rem;
+}
+
+.product-class {
+  font: 1.8rem;
+  color: hsla(228, 12%, 48%, 0.6);
+  font-weight: 700;
+
+  text-transform: uppercase;
+  letter-spacing: 4px;
+
+  margin-bottom: 2.4rem;
+}
+
+.heading-primary {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 3rem;
+
+  color: hsl(212, 21%, 14%);
+
+  letter-spacing: 0.3px;
+  line-height: 1;
+
+  margin-bottom: 2.4rem;
+}
+
+.product-description {
+  font-size: 1.2rem;
+  color: hsla(228, 12%, 48%, 0.6);
+
+  line-height: 1.7;
+
+  font-weight: 500;
+
+  margin-bottom: 2.4rem;
+}
+
+.price {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-bottom: 2.4rem;
+}
+
+.price-actual {
+  font-size: 3rem;
+  font-family: "Fraunces", serif;
+  color: hsl(158, 36%, 37%);
+}
+
+.price-original {
+  font-size: 1rem;
+  color: hsla(228, 12%, 48%, 0.6);
+  text-decoration: line-through;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+
+  text-decoration: none;
+
+  padding: 1.4rem 4.8rem;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 10px;
+
+  transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: hsl(212, 21%, 14%);
+}
+
+.btn div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.btn p {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
