@@ -1,0 +1,39 @@
+/* ********************** */
+/* BELOW 544px : 540 / 16 = 34rem */
+/* ********************** */
+
+@media (max-width: 34rem) {
+  section {
+    padding: 2.4rem 1.2rem;
+  }
+
+  .grid--2-col {
+    grid-template-columns: 1fr;
+  }
+
+  .container {
+    max-width: 33rem;
+  }
+
+  .product-img {
+    background-image: url("../images/image-product-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: auto; */
+    height: 25rem;
+    /* width: 100%; */
+  }
+
+  .price {
+    justify-content: start;
+  }
+
+  .price-original {
+    margin-left: 1.2rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    width: 100%;
+  }
+}

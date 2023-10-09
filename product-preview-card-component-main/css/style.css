@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 html {
   height: 100vh;
   font-size: 62.5%;
@@ -49,12 +48,15 @@ section {
 }
 
 .product-img {
+  background-image: url("../images/image-product-desktop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.product-img img {
+/* .product-img img {
   width: 100%;
   display: block;
-}
+} */
 
 .product-information {
   /* flex: 1; */
